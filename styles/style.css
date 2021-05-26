@@ -18,6 +18,9 @@
 	color: white;
 	transition: all 0.2s;
 }
+.m50 {
+	margin: 50px 0;
+}
 
 .hero {
 	background: url('../assets/bg.png');

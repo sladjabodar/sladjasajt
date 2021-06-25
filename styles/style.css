@@ -400,9 +400,6 @@ a {
 	padding-bottom: 50px;
 	border-bottom: 3px solid #ba30ff;
 }
-.link button {
-	width: min-content;
-}
 .link button a {
 	color: white;
 }

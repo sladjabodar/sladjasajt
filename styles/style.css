@@ -394,6 +394,21 @@ a {
 	margin-top: 50px;
 	width: 100%;
 }
+.link {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	border-bottom: 3px solid #ba30ff;
+}
+.link button {
+	width: min-content;
+}
+.link button a {
+	color: white;
+}
+.link h2 {
+	padding-top: 50px;
+}
 .carousel-inner {
 	position: relative;
 }

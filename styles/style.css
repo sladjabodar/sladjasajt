@@ -457,6 +457,9 @@ a {
 		font-size: 1.5rem;
 		display: inline-block;
 	}
+	.active::after {
+		content: none;
+	}
 	.cont-manji {
 		width: 100%;
 	}
@@ -495,7 +498,9 @@ a {
 	.text {
 		width: 90%;
 	}
-
+	.page-hero h1 {
+		margin-left: 0;
+	}
 	.bahove-kapi p {
 		width: 90%;
 		line-height: 1.5rem;
@@ -518,6 +523,9 @@ a {
 	.kongres {
 		max-width: 500px;
 	}
+	.bkapi-slike {
+		width: 100%;
+	}
 	.hero {
 		margin-left: 0;
 	}
@@ -527,7 +535,12 @@ a {
 	.p-wider {
 		width: 100%;
 	}
-
+	.block {
+		width: 100%;
+	}
+	.slika-responsive {
+		width: 70%;
+	}
 	/* smartphone done */
 }
 

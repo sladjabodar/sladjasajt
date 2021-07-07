@@ -262,7 +262,6 @@ a {
 
 .text-tb p {
 	padding: 10px 0;
-	width: 450px;
 }
 
 .bahove-kapi {
@@ -295,7 +294,6 @@ a {
 	font-size: 1.2em;
 	font-weight: 600;
 	padding-bottom: 40px;
-	text-align: center;
 }
 
 .bahove-kapi button {
@@ -448,10 +446,9 @@ a {
 	body {
 		overflow-x: hidden;
 	}
-
-	/* p {
-		width: 90%;
-	} */
+	p {
+		width: 100%;
+	}
 	h2 {
 		font-size: 1.8em;
 	}
@@ -459,6 +456,9 @@ a {
 		padding-bottom: 10px;
 		font-size: 1.5rem;
 		display: inline-block;
+	}
+	.active::after {
+		content: none;
 	}
 	.cont-manji {
 		width: 100%;
@@ -487,6 +487,7 @@ a {
 	}
 	.hero-cont {
 		justify-content: center;
+		width: 90%;
 	}
 
 	.btn-main {
@@ -497,8 +498,8 @@ a {
 	.text {
 		width: 90%;
 	}
-	.text-tb p {
-		width: 90%;
+	.page-hero h1 {
+		margin-left: 0;
 	}
 	.bahove-kapi p {
 		width: 90%;
@@ -506,14 +507,14 @@ a {
 		font-size: 1.2em;
 		font-weight: 600;
 		padding-bottom: 40px;
-		text-align: center;
+		/* text-align: center; */
 	}
 	.bahove-kapi h1 {
 		text-align: center;
 	}
 	.bahove-kapi button {
-		width: 90%;
-		margin-bottom: 50px;
+		position: relative;
+		bottom: 20px;
 	}
 	.bahove-kapi {
 		background-position-x: -630px;
@@ -521,6 +522,9 @@ a {
 	}
 	.kongres {
 		max-width: 500px;
+	}
+	.bkapi-slike {
+		width: 100%;
 	}
 	.hero {
 		margin-left: 0;
@@ -531,22 +535,31 @@ a {
 	.p-wider {
 		width: 100%;
 	}
-
+	.block {
+		width: 100%;
+	}
+	.slika-responsive {
+		width: 70%;
+	}
 	/* smartphone done */
 }
 
 /* Tablets */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-	.kongres {
-		max-width: 650px;
+	p {
+		width: 100%;
 	}
-
-	.container {
+	.bahove-kapi p {
 		width: 90%;
 	}
-	.hero {
-		margin-left: 100px;
+	.text,
+	.text-p {
+		width: 100%;
 	}
+	.kongres {
+		width: 650px;
+	}
+
 	.hide {
 		display: none;
 	}
